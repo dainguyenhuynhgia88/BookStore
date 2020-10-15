@@ -1,0 +1,93 @@
+﻿[
+  {
+    "id": "1",
+    "title": "B Cell Protocols",
+    "authors": [
+      "Hua Gu",
+      "Rajewsky"
+    ],
+    "publishedDate": "01-01-2004",
+    "description": "A diverse collection of protocols ranging from the latest inventions and applications to some classic, but still frequently used, methods for studying B-lymphocyte development and function in higher animals.",
+    "imageUrl": "http://books.google.com/books/content?id=BZ0N4n8k6bIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "2",
+    "title": "Molecular Biology",
+    "authors": [
+      "Alan McLachlan"
+    ],
+    "publishedDate": "1991-10-23",
+    "description": "Molecular Biology of the Hepatitis B Virus presents a comprehensive account of the various molecular aspects of the life cycle of the hepatitis B virus (HBV).",
+    "imageUrl": "http://books.google.com/books/content?id=Hd5-722GEgAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "3",
+    "title": "Junie B. Jones #17",
+    "authors": [
+      "Barbara Park"
+    ],
+    "publishedDate": "2009-03-12",
+    "description": "“Hilarious. Barbara Park makes reading fun.” —Dav Pilkey, author of Dog Man Barbara Park's #1 New York Times bestselling chapter book series, Junie B. Jones, has been keeping kids laughing and reading for more than twenty-five years, with over 65 million copies sold. This graduation themed book is the perfect send-off for fans—young and old!",
+    "imageUrl": "http://books.google.com/books/content?id=Hjitl6xt2r4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "4",
+    "title": "Requiem for a Nun",
+    "publishedDate": "2011-05-18",
+    "authors": [
+      "William Faulkner"
+    ],
+    "imageUrl": "http://books.google.com/books/content?id=rXPNrVSSpUUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "The sequel to Faulkner’s most sensational novel Sanctuary, was written twenty years later but takes up the story of Temple Drake eight years after the events related in Sanctuary. Temple is now married to Gowan Stevens. The book begins when the death sentence is pronounced on the nurse Nancy for the murder of Temple and Gowan’s child."
+  },
+  {
+    "id": "5",
+    "title": "Half of a Yellow Sun",
+    "authors": [
+      "Chimamanda Ngozi"
+    ],
+    "publishedDate": "2008-11-12",
+    "description": "A haunting story of love and war from the best-selling author of Americanah and We Should All Be Feminists. With effortless grace, celebrated author Chimamanda Ngozi Adichie illuminates a seminal moment in modern African history: Biafra's impassioned struggle to establish an independent republic in southeastern Nigeria during the late 1960s.",
+    "imageUrl": "http://books.google.com/books/content?id=-Bkrc1Fbm-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "6",
+    "title": "B Cell Biology",
+    "authors": [
+      "David Ahmad Nemazee"
+    ],
+    "publishedDate": "01-01-2003",
+    "description": "B cells play a central role not only in adaptive immunity, but also in autoimmunity. To understand how B cells are normally prevented from reacting to self-tissue, what goes wrong in autoimmunity, and how B cells contribute to it is the aim of this book.",
+    "imageUrl": "http://books.google.com/books/content?id=XN2HjHrbDpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "7",
+    "title": "Welcome to the US",
+    "publishedDate": "01-01-1981",
+    "authors": [
+      "William Faulkner"
+    ],
+    "description": "Molecular Biology of B Cells, Second Edition is a comprehensive reference to how B cells are generated, selected, activated and engaged in antibody production.",
+    "imageUrl": "http://books.google.com/books/content?id=HKryvnWoITAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "8",
+    "title": "A guide to two cultures",
+    "authors": [
+      "Interagency Task Force"
+    ],
+    "publishedDate": "01-01-1975",
+    "description": "Barbara Park’s New York Times bestselling chapter book series, Junie B. Jones, is a classroom favorite and has been keeping kids laughing—and reading—for more than twenty years.",
+    "imageUrl": "http://books.google.com/books/content?id=070smeKDxSwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9",
+    "title": "A guide to two cultures",
+    "authors": [
+      "Department of Health"
+    ],
+    "publishedDate": "01-01-1979",
+    "description": "The award-winning -u2 billion Sizewell B nuclear power station on the Suffolk coast north east of Ipswich is the UK's first pressurized water reactor (PWR) electricity generation plant.",
+    "imageUrl": "http://books.google.com/books/content?id=z20PmMIPj6QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  }
+]

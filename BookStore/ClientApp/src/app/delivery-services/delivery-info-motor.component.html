@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tbody>
+    <tr>
+      <th scope="row">Driver name</th>
+      <td>{{deliveryService?.deliveryInfo.driverName}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Mobile</th>
+      <td>{{deliveryService?.deliveryInfo.phoneNumber}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Delivery date</th>
+      <td>{{deliveryService?.deliveryInfo.deliveryDate | date: 'dd/MM/yyyy'}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Cost</th>
+      <td>{{deliveryService?.price}}</td>
+    </tr>
+  </tbody>
+</table>

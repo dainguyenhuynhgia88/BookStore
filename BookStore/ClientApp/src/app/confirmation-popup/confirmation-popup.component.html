@@ -1,0 +1,17 @@
+<div mat-icon-button class="close-button" [mat-dialog-close]="true">
+  <mat-icon class="close-icon" color="warn">close</mat-icon>
+</div>
+
+<div class="container">
+  <div class="row view-group">
+    <div class="item col-xs-12 col-lg-12" [ngSwitch]="deliveryService?.deliveryInfo?.deliveryInfoType">
+      <delivery-info-motor *ngSwitchCase="1" [deliveryService]="deliveryService"></delivery-info-motor>
+      <delivery-info-train *ngSwitchCase="2" [deliveryService]="deliveryService"></delivery-info-train>
+      <delivery-info-aircraft *ngSwitchCase="3" [deliveryService]="deliveryService"></delivery-info-aircraft>
+    </div>
+  </div>
+
+  <div class="row">
+    <button type="button" class="btn btn-danger btn-lg btn-block" (click) ="onConfirm()">Confirm</button>
+  </div>
+</div>

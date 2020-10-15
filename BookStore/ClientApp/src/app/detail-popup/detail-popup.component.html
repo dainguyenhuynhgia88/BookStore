@@ -1,0 +1,46 @@
+<div mat-icon-button class="close-button" [mat-dialog-close]="true">
+  <mat-icon class="close-icon" color="warn">close</mat-icon>
+</div>
+
+<div class="container">
+  <div class="row view-group">
+    <div class="item col-xs-12 col-lg-6">
+      <div class="thumbnail">
+        <div class="img-event text-center">
+          <img class="group list-group-image img-fluid" src="{{book.imageUrl}}" alt="Book image" />
+        </div>
+        <div class="caption card-body">
+          <h4 class="group card-title inner list-group-item-heading text-center">
+            {{book.title}}
+          </h4>
+          <p class="text-center">{{book.authors.join(', ')}} - {{book.publishedDate | date: 'dd/MM/yyyy'}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="item col-xs-12 col-lg-6">
+      <span class="group inner list-group-item-text">
+        {{book.description}}
+      </span>
+    </div>
+  </div>
+  <div class="row view-group">
+    <div class="item col-xs-12 col-lg-12">
+      <span>Ship via</span>
+    </div>
+  </div>
+  <hr class="line_break ">
+
+  <button type="button"
+          class="btn btn-lg btn-{{deliveryService.buttonColor}} rounded-pill my-3 mx-2"
+          data-toggle="button"
+          aria-pressed="false"
+          autocomplete="off"
+          (click) ="onSelectDeliveryService(deliveryService)"
+          *ngFor="let deliveryService of deliveryServices">
+    {{deliveryService.name}} ${{deliveryService.price}}
+  </button>
+ 
+  <div class="row">
+    <button type="button" class="btn btn-danger btn-lg btn-block" (click) ="onBuy()">BUY</button>
+  </div>
+</div>

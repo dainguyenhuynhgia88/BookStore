@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tbody>
+    <tr>
+      <th scope="row">Train no</th>
+      <td>{{deliveryService?.deliveryInfo.trainNo}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Station of arrival</th>
+      <td>{{deliveryService?.deliveryInfo.stationOfArrival}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Date of arrival</th>
+      <td>{{deliveryService?.deliveryInfo.dateOfArrival | date: 'dd/MM/yyyy'}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Cost</th>
+      <td>{{deliveryService?.price}}</td>
+    </tr>
+  </tbody>
+</table>
